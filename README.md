@@ -57,7 +57,7 @@ The user can send his search preferences:
 * Religion list
 * Gender
 
-We will filter the user's database according to the users suggestion and to make a "good" suggestion we will apply the following rules:
+We will filter the user's database according to the users suggestion and, to make a "good" suggestion we will apply the following rules:
 * The requester should not get users that blocked him.
 * The requester should not get users that he blocked.
 * Users that have a Message/Like relationship with the requester should be at the end of the result.
@@ -66,15 +66,15 @@ We will filter the user's database according to the users suggestion and to make
 Your job is to create a REST controller to handle this request, a good way to start is by extending the repositories and by creating services to handle the business logic.
 
 ## Assignment Number 4 ##
-The product manager wants to add a new feature that allows the user to post messages to shared wall.
-A post contain the creator's identity, the post content (string) and the creation time.
+The product manager wants to add a new feature that allows the user to post messages to a shared wall.
+A post contains the creator's identity, the post content (string) and the creation time.
 Please create a REST controller to support the following actions:
 * Create a new post.
 * Delete a post.
-* Get all the posts by the user's search preferences (as described in the previous assignment)
+* Get all the posts by the user's search preferences (as described in the previous assignment) ordered by their creation time.
 
 ## Assignment Number 5 - BONUS ##
-As the user database begins to grow up in size we want to implement a cache to the results of the 3rd assignment.
+As the user database begins to grow up in size we want to implement a cache layer to the results of the 3rd assignment.
 Design, implement and integrate a cache layer to the results of the 3rd assignment endpoint.
 
 
