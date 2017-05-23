@@ -45,6 +45,7 @@ Inside that folder you will find the following package structure:
 * Create a concrete implementation to the relationship repository and name it RelationshipRepository.
 
 ## Assignment Number 2 ##
+* You may use any 3rd party framework to handle the HTTP requests.
 * Create a REST endpoint that will get a user by its id.
 * Create a REST endpoint to get all the relationships of a user, the result should be grouped by incoming/outgoing relationships and by the relationship type.
 * Create a REST endpoint to add a relationship between two users (for each one of the relationship types).
